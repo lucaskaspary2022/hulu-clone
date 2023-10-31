@@ -25,8 +25,8 @@ function Earnings() {
                     <span className='text-black'>$1,354,567</span>
                     <span className="ml-2 flex items-center text-xs text-green-500"
                     >31%
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 11l5-5m0 0l5 5m-5-5v12" /></svg></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 11l5-5m0 0l5 5m-5-5v12" /></svg></span>
                 </div>
                 <div className='mt-8 flex space-x-2'>
                     {months.map((month, key) => (

@@ -8,17 +8,17 @@ function WeatherPage() {
                     <div className='flex w-full justify-between text-sm text-blue-50'>
                         <div>Day</div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform duration-200 hover:scale-110 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transform duration-200 hover:scale-110 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
                             </svg>
                         </div>                            
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform duration-200 hover:scale-110 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 transform duration-200 hover:scale-110 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                             </svg>
                         </div>
                     </div>
-                    <div class="flex w-full justify-center"><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_19-512.png" class="tranform my-6 w-32 duration-200 hover:scale-105" /></div>
+                    <div className="flex w-full justify-center"><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_19-512.png" className="tranform my-6 w-32 duration-200 hover:scale-105" /></div>
                     <div className='flex w-full flex-col items-center'>
                         <h2 className='text-7xl font-extrabold text-white'>34<sup className="text-5xl font-medium">o</sup></h2>
                         <p className='text-white'>Tampa</p>
